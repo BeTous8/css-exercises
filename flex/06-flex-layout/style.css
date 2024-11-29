@@ -5,6 +5,49 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* solution */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  /* outline: 1px solid rebeccapurple; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  /* outline: 1px solid rebeccapurple; */
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color:#424243;
+}
+
+li {
+  list-style-type: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 img {
@@ -16,6 +59,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px 10px;
 }
 
 input {
@@ -23,4 +67,12 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: #eee;
+  
 }
